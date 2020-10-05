@@ -1,0 +1,328 @@
+/* aqua:#00b5dd pink:#d2007a navy: #04276e */
+
+body {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	text-align: center;
+	color: #04276e;
+}
+
+/* header */
+.nav {
+	background-color: #04276e;
+	padding: 20px;
+	text-align: right;
+}
+
+.nav__link {
+	color: #ffffff;
+	padding-right: 20px;
+	text-decoration: none;;
+}
+
+.header {
+	margin: 0px;
+    background-color: #04276e;
+    padding: 30px 0px; 
+}
+
+.header__div {
+    margin: auto;
+}
+
+.header__link {
+	text-decoration: none;
+}
+
+.header__subheader {
+    color: #ffffff;
+    margin: 20px auto;
+}
+
+.header__title {
+	font-size: 500%;
+	color: #ffffff;
+}
+
+.header__img {
+	height: 180px;
+    display: block;	
+}
+
+.header__img--round-window {
+	border-radius: 50%;
+    background-color: #ffffff;
+    height: 150px;
+    width: 150px;
+    margin: 15px auto;
+	padding: 10px;
+	overflow: hidden;
+	background-size: contain;
+	background-position: center;
+}
+
+.footer {
+	background-color: #04276e;
+	color: #ffffff;
+	text-align: left;
+	margin-top: 150px;
+	padding: 10px 20px;
+	font-size: 0.8em;
+}
+
+.footer__div {
+	display: inline;
+	
+}
+
+.footer__div--link {
+	color: #ffffff;
+}
+
+/* homepage sections*/
+
+.section__header {
+	color: #04276e;
+	font-size: 2.5em;
+}
+
+.section__flex-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.section__flex-container--large-margin {
+	margin: 30px auto;
+}
+
+.section__div {
+	display: inline-block;
+	padding: 5px;
+	margin: 0px 20px;
+}
+
+.section__div__img {
+	height: 60px;
+	display: block;	
+	margin: 20px auto;
+}
+
+.section__div--circle {
+	border: #04276e solid 2px;
+	border-radius: 50%;
+    background-color: #ffffff;
+    height: 100px;
+    width: 100px;
+    margin: 15px;	
+}
+
+.section__div--small-circle {
+    height: 40px;
+    width: 40px;
+    margin: 15px auto;
+	padding: 20px;
+	position: relative;
+	top: -60px;
+	left: 120px;
+	background-position: center;
+	background-size: contain;
+}
+
+.section__div--rectangle {
+	color: #04276e;
+	cursor: pointer;
+	border: 2px solid #04276e;
+	padding: 10px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 5px;
+	font-size: 1.4em;
+	min-height: 270px;
+}
+
+.petter {
+	background-image: url('images/profilbilder/petter-smart.png');
+}
+
+.donald {
+	background-image: url('images/profilbilder/donald.png');
+}
+
+.daisy {
+	background-image: url('images/profilbilder/dolly.png');
+}
+
+.anonym {
+	background-image: url('images/profilbilder/anonym.png');
+}
+
+.section__div--light-blue {
+	color: #00b5dd;
+	margin-top: 5px;
+}
+
+.submit {
+	display: inline-block;
+	background-color: #ffffff;
+	color: #04276e;
+	font-size: 150%;
+	font-weight: bold;
+	border: solid 2px #04276e;
+	border-radius: 8px;
+	padding: 5px 35px;
+	margin: auto;
+	text-decoration: none;
+}
+
+.submit:hover {
+	background-color: #04276e;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.hr--large-margin {
+	margin: 60px;
+}
+
+.section__hr {
+	margin: 0px 0px 20px 0px;
+	border-top: 1px dashed grey;
+}
+
+/* oppfinnelser siden */
+
+.section--medim-width {
+	width: 90%;
+	margin: auto;
+	font-size: 1.4em;
+}
+
+.section__flex-container--left {
+	text-align: left;
+	justify-content: left;
+}
+
+.section__div--square {
+	border: grey solid 2px;
+	border-radius: 5%;
+    background-color: #ffffff;
+    height: 60px;
+    width: 60px;
+    margin: 15px;
+	padding: 15px;	
+}
+
+.section__div--description {
+	margin-left: 15px;
+	padding: 15px;	
+}
+
+.section__div__title {
+	color:  #04276e;
+	font-weight: 600;
+}
+
+/* andbefalinger siden */
+
+.section__div__ul {
+	list-style: none;
+	text-align: left;
+	padding-inline-start: 20px;
+}
+
+.section__div__ul__li {
+	padding: 5px;
+	float: left;
+	margin: 0px 20px;
+}
+
+.section__div__ul__li__img {
+	height: 50px;
+}
+
+.section__div--list-circle {
+	height: 40px;
+    width: 40px;
+    margin: 15px auto;
+	padding: 20px;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+
+.scrooge {
+	background-image: url('images/profilbilder/skrue.jpg');
+}
+
+.ole {
+	background-image: url('images/profilbilder/odd.jpg');
+}
+
+.minnie {
+	background-image: url('images/profilbilder/minni.jpg');
+}
+
+.mickey {
+	background-image: url('images/profilbilder/mikki.jpg');
+}
+
+.centered {
+	text-align: center;
+}
+
+.li--centered {
+	float: none;
+}
+
+/* kontakt siden*/
+.section__div__img--small-img{
+	margin: 0px;			
+}
+
+.section__div--set-width {
+	width: 150px;
+}
+
+th, td {
+	padding: 10px;
+}
+
+
+
+.search {
+	display: block;
+	margin: 30px auto;
+	color: #04276e;
+	font-weight: bold;
+	font-size: 1.5em;
+	min-height: 40px;
+
+}
+
+.search-field {
+	display: block;
+	float: left;	
+}
+
+.search-button {
+	display: block;
+	border: #04276e solid 1px;
+	border-radius: 5%;
+    background-color: #ffffff;
+    height: 20px;
+    width: 20px;
+	padding: 10px;
+	float: left;
+	margin-left: 15px;
+	cursor: pointer;
+}
+
+.search-icon {
+	height: 20px;
+    display: block;	
+}
+
+input {
+	padding: 12px;
+}
