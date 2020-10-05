@@ -1,4 +1,10 @@
 # PETTER SMART
 Webside til Petter Smart, oppfinner
 
-## oving2 i INF1003 host 2020
+## Oving2 i INF1003 høst 2020
+
+### Innhold
+- index/hjemmeside
+- andbefalinger
+- kontakt side
+- oppfinnelser side
